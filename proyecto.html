@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.22/dist/sweetalert2.all.min.js"></script>
+    
+
+    <title>Document</title>
+  <style>
+
+    .fieldset{
+      font-size: 15px;
+      background-color: blue;
+      width: 50rem;
+      height: 25rem;
+      text-align: center;
+      margin-left: 25%;
+      margin-right: 25%;
+      margin-top: 1%;
+      color:aqua;
+      border: aqua solid 1px;
+    }
+    .body{
+
+      background-color:blue;
+      
+      
+    
+    }
+
+    .form{
+      font-size: 15px;
+      background-color:blue;
+      width: 50rem;
+      height: 25rem;
+      text-align: center;
+      margin-left: 25%;
+      margin-right: 25%;
+      margin-top: 1%;
+      margin-bottom: 0%;
+      color:aqua
+
+
+    }
+    .contenedor{
+      font-size: 15px;
+      background-color:blue;
+      width: 50rem;
+      height: 25rem;
+      text-align: center;
+      margin-left: 25%;
+      margin-right: 25%;
+      margin-top: 0%;
+      margin-bottom: 0%;
+      color:aqua
+
+
+
+
+    }
+    .pagos{
+      font-size: 15px;  
+    background-color:blue;
+    width: 50rem;
+    height: 5rem;
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color:aqua
+
+
+
+
+}
+
+    .clima{
+
+background-color:transparent;
+width: 20rem;
+height: 10rem;
+color: aqua;
+text-align: center;
+font-size: 1rem;
+font-family: 'Times New Roman', Times, serif;
+
+
+
+
+    }
+    .video{
+
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 5rem;
+    bottom: 0;
+    z-index: -1;
+
+
+
+    }
+
+  </style>
+
+</head>
+<div id= "clima" class="clima">
+      
+</div>
+
+<body class="body" >
+  
+  
+   <main   id="formulario" >
+     
+  <fieldset class="fieldset" id="inicio">
+    
+    
+
+    <h3>SIMULADOR PRESTAMOS CASA LOPEZ</h3>   
+    <br>
+
+    <div>
+      <input placeholder="Ingrese monto en $" id="monto">
+    
+    </div>  
+    <br>
+    <div>  
+    <input id="cuotas" placeholder="cuotas">
+    </div>
+    <br>
+    <button type="submit" id="simular">SIMULAR</button> 
+    <div id="propuesta"></div>
+    <div>
+    <br>
+
+    <h3>BUSCAR TU PRESTAMO</h3>
+
+    <div>
+      <input id="prestamo">
+    </div>
+    <br>
+    <button type="submit" id="boton_dos">BUSCAR</button>
+    </div>
+  
+
+  
+
+</fieldset> 
+
+
+</main> 
+
+<div id="contenedor"></div> 
+
+
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="./proyecto.js"></script>
+  
+</body>
+</html>
+
+
